@@ -1,4 +1,4 @@
-# scripts
+# Scripts
 Useful scripts I've written during my dissertation research.
 
 The cancer mutation analysis is connected to an updated version of [this project](https://www.biorxiv.org/content/10.1101/2021.08.09.455723v2), wherein we were characterizing how often mutations known to cause cancer in humans were found in the reference orthologs of other sequenced organisms.
