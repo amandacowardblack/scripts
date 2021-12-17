@@ -8,7 +8,7 @@ import io
 import string
 def extract_names(alignment):
     # shorten sequence names in a fasta alignment 
-    # keeping the just the characters up to the delimiter
+    # keeping just the characters up to the delimiter
     # import biopython modules to read and write fasta files
     species = list(SeqIO.parse(alignment, "fasta"))
     species_short = []
@@ -20,20 +20,13 @@ def characterize_groups(species, annual):
         groups_present = []
         #check if any member of species is in annual
         print(species)
-        # intersection = [value for value in species if value in annual]
-
+        
         for group in annual:
                 intersection = [value for value in species if value in annual[group]]
                 print(intersection)
                 if len(intersection) > 0:
                         groups_present.append(group)
 
-        #if yes, result = TRUE
-        #if len(groups_present) > 1:
-        #       result = True
-        #if no, result = FALSE
-        #else:
-        #       result = False
         return groups_present
 
 def main():
