@@ -1,6 +1,6 @@
 # Evolutionary Rate Analysis
 
-With this project, a group of researchers provided me with a curated dataset of alignments and tasked me with running various analyses.
+With this project, a group of researchers provided me with a curated dataset of gene alignments and tasked me with running various analyses.
 The project involved testing whether annual lineages of killifish were evolving at significantly different rates compared to non-annual lineages.
 This was implemented via [ETE toolkit](http://etetoolkit.org/), [codeml](http://abacus.gene.ucl.ac.uk/software/paml.html), and [iqtree](http://www.iqtree.org/).
 
