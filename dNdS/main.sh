@@ -8,6 +8,7 @@ python structure.py
 echo "File structure created."
 
 ## this function of code converts the fasta alignments into PHYLIP alignments for codeml. I utilized a custom script written by Dr. Mike Vandewege.
+## But many conversion scripts exist.
 
 for file in *.fasta; do echo "${file%.*}"; done > file_name.txt
 
