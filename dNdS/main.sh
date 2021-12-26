@@ -14,7 +14,7 @@ for file in *.fasta; do echo "${file%.*}"; done > file_name.txt
 
 while IFS= read -r file
 do
-	echo `python2 /path/to/script/fasta2phylipFullName.py /path/to/alignments/${file}/iqtree/${file}.short_names.fasta > /path/to/alignments/${file}/codeml/${file}.short_names.phy`
+	echo `python2 /path/to/script/fasta2phylipFullName.py /path/to/alignments/${file}/iqtree/"$file".short_names.fasta > /path/to/alignments/"$file"/codeml/"$file".short_names.phy`
 
 done < "/path/to/alignments/file_name.txt"
 echo "FASTA alignments converted to Phylip."
