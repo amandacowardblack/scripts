@@ -4,6 +4,6 @@
 
 while IFS= read -r file
 do
-	echo `python /path/to/project/parse.py ${file} dnds_data.txt`
+	echo `python /path/to/project/parse.py "$file" dnds_data.txt`
 
 done < "/path/to/project/file_name.txt"
