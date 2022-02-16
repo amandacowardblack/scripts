@@ -1,7 +1,11 @@
-def main():
-    results = open('araf_output.txt', 'r')
+import sys
 
-    output = open('araf_output.csv', 'w')
+def main():
+    f1 = sys.argv[1]
+    f2 = sys.argv[2]
+    
+    results = open(f1, 'r')
+    output = open(f2, 'w')
 
     result_dict = {}
 
