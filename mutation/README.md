@@ -22,7 +22,7 @@ The alignment was then analyzed using [check_mutation_sites.py](https://github.c
     >Sequence_Name
     523T
 
-This text file was then converted into a .csv for easier analysis in a spreadsheet using [format_output.py](https://github.com/amandacowardblack/scripts/blob/main/mutation/format_output.py). If a sequence possessed multiple mutations, it now only takes up one line. Example:
+This text file was then converted into a .csv for easier analysis in a spreadsheet using [format_output.py](https://github.com/amandacowardblack/scripts/blob/main/mutation/format_output.py). If a sequence possessed multiple mutations, it now only takes up one line. Use: python3 format_output.py ${results_file.txt} ${output_file.csv}. Example:
 
     >Sequence_Name	1093L	1097S 
 
